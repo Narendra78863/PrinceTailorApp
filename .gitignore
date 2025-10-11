@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Configuration and Secrets
+.env
+db.js
+
+# Uploaded Files
+uploads/
