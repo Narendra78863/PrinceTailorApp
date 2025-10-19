@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const pool = require('./db');
+const pool = require('./db.js');
 const fs = require('fs'); // Node's built-in file system module for file cleanup
 const multer = require('multer'); // For handling file uploads
 const path = require('path'); // Node's built-in path module
